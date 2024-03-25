@@ -53,9 +53,8 @@ function deriveWinner(gameBoard, players) {
     ) {
       winner = players[firstSquareSymbol];
     }
-
-    return winner;
   }
+  return winner;
 }
 
 function App() {
